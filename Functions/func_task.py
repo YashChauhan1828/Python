@@ -16,8 +16,8 @@ def type_task(*agrs):
             float.append(i)
 
     return f"int {int} float:{float} boolean:{boolean} str:{str}"
-type_task(100,True,20,20.89,100,"java",90.90)
-print(type_task())
+print(type_task(100,True,20,20.89,100,"java",90.90))
+
 
 #task 2
 def sum(*args):
